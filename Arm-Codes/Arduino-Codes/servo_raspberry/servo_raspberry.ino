@@ -49,14 +49,14 @@ void loop()
         }
       }
     }
-    /*
+    
     ServoThumb.write(arr[0]);
     ServoPointer.write(arr[1]);
     ServoMiddle.write(arr[2]);
     ServoRing.write(arr[3]);
     ServoPinky.write(arr[4]); 
     ServoWrist.write(arr[5]);
-    */
+    
     for(int i = 0; i < index; i++)
     {
       Serial.print("Finger ");
